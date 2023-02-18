@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Festive&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -19,5 +20,66 @@
     'GRAD' 200,
     'opsz' 48
   }
+
+  .boxshadow{
+    box-shadow: 5px 5px 15px 5px #00000039;
+  }
+
+  .summary1::marker{
+    content: '📖';
+  }
+
+  .summary2::marker{
+    content: '🧾';
+  }
+
+  .summary3::marker{
+    content: '💼';
+  }
+
+  .hex{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background: #404040;
+    clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .hex img{
+    z-index: 1;
+  }
+
+  .ulist1{
+    transform: translateY(60px);
+  }
+
+  .ulist2{
+    transform: translateY(30px);
+  }
+
+  ul li .hex:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform .5s ease-in-out;
+  }
+
+  ul li:hover .hex:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s ease-in-out;
+  }
+
+
 
  

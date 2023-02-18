@@ -34,8 +34,3 @@ export const nav = [{
 },
 ]
 
-export const style = [
-    
-
-
-]
