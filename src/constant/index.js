@@ -100,33 +100,4 @@ export const project =[
     
 ];
 
-export const contact = [
-    {
-        id: "email",
-        link: "",
-    },
-    {
-        id: "phone",
-        link: "",
-    },
-    {
-        id: "linkedin",
-        link: "https://www.linkedin.com/in/vsagarofficial/",
-    },
-    {
-        id: "github",
-        link: "https://github.com/vsagar26",
-    },
-    {
-        id: "telegram",
-        link: "",
-    },
-    {
-        id: "hashnode",
-        link: "https://hashnode.com/@vsagar",
-    },
-    {
-        id: "instagram",
-        link: "https://www.instagram.com/v_sagar005/",
-    },
-]
+

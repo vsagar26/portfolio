@@ -1,6 +1,5 @@
 import React from "react";
 import { gmail, phone, linkedin, github, telegram, hashnode, instagram } from "../assets";
-import { contact } from "../constant";
 
 
 
