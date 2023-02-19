@@ -80,6 +80,18 @@
     transition: transform .5s ease-in-out;
   }
 
+  .technology{
+    font-family: Montserrat;
+    font-size: 110px;
+    font-weight: 800;
+    position: absolute;
+    z-index: -1;
+    margin-top: 555px;
+    margin-left: 900px;
+    opacity: 0.035;
+    text-transform: uppercase;
+  }
+
 
 
  

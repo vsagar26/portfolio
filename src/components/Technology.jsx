@@ -17,8 +17,8 @@ import {
 const Technology = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[100vh] ">
-      {/* <h2 className="text-[50px] font-[Roboto] font-[100] ml-[300px] pb-14 mt-[-60px]">Technology</h2> */}
-      <div className="flex flex-col justify-center items-center ml-[340px] mt-[-50px]" >
+      <h2 className=" technology">Technology</h2>
+      <div className="flex flex-col justify-center items-center ml-[340px] mt-[-70px]" >
         <div className="container1 ">
           <ul className="flex flex-row gap-4 ulist1" >
             <li>
@@ -28,17 +28,17 @@ const Technology = () => {
             </li>
             <li>
               <div className="hex">
-                <img src={css} alt="html" className="h-[80px]" />
+                <img src={css} alt="css" className="h-[80px]" />
               </div>
             </li>
             <li>
               <div className="hex">
-                <img src={bootstrap} alt="html" className="h-[80px]" />
+                <img src={bootstrap} alt="bootstrap" className="h-[80px]" />
               </div>
             </li>
             <li>
               <div className="hex">
-                <img src={tailwindcss} alt="html" className="h-[80px]" />
+                <img src={tailwindcss} alt="tailwindcss" className="h-[80px]" />
               </div>
             </li>
           </ul>
@@ -48,17 +48,17 @@ const Technology = () => {
           <ul className="flex flex-row gap-4 ulist2">
             <li>
               <div className="hex">
-                <img src={javascript} alt="html" className="h-[80px]" />
+                <img src={javascript} alt="javascript" className="h-[80px]" />
               </div>
             </li>
             <li>
               <div className="hex">
-                <img src={reactjs} alt="html" className="h-[80px]" />
+                <img src={reactjs} alt="reactjs" className="h-[80px]" />
               </div>
             </li>
             <li>
               <div className="hex">
-                <img src={redux} alt="html" className="h-[80px]" />
+                <img src={redux} alt="redux" className="h-[80px]" />
               </div>
             </li>
           </ul>
@@ -68,22 +68,22 @@ const Technology = () => {
           <ul className="flex flex-row gap-4 ulist3">
             <li>
               <div className="hex">
-                <img src={nodejs} alt="html" className="h-[80px]" />
+                <img src={nodejs} alt="nodejs" className="h-[80px]" />
               </div>
             </li>
             <li>
               <div className="hex">
-                <img src={expressjs} alt="html" className="h-[50px]" />
+                <img src={expressjs} alt="expressjs" className="h-[50px]" />
               </div>
             </li>
             <li>
               <div className="hex">
-                <img src={mongodb} alt="html" className="h-[80px]" />
+                <img src={mongodb} alt="mongodb" className="h-[80px]" />
               </div>
             </li>
             <li>
               <div className="hex">
-                <img src={postman} alt="html" className="h-[80px]" />
+                <img src={postman} alt="postman" className="h-[80px]" />
               </div>
             </li>
           </ul>
