@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.div
-      className="flex flex-row"
+      className="flex flex-row ml-[140px]"
       initial={{ y: 40 }}
       animate={{
         y: 0,

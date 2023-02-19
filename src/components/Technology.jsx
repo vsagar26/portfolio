@@ -16,7 +16,7 @@ import {
 
 const Technology = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh] ">
+    <div className="flex flex-col justify-center items-center h-[100vh] ml-[110px]">
       <h2 className=" technology">Technology</h2>
       <div className="flex flex-col justify-center items-center ml-[340px] mt-[-70px]" >
         <div className="container1 ">

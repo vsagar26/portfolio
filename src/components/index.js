@@ -3,6 +3,6 @@ import About from "./About";
 import Contact from "./Contact";
 import Hero from "./Hero";
 import Technology from "./Technology";
-import Work from "./Work";
+import Projects from "./Projects";
 
-export {Navbar, About, Contact, Hero, Technology, Work };
+export {Navbar, About, Contact, Hero, Technology, Projects };

@@ -25,6 +25,10 @@
     box-shadow: 5px 5px 15px 5px #00000039;
   }
 
+  .boxshadow2{
+    box-shadow: 5px 5px 20px 10px #6837a331;
+  }
+
   .summary1::marker{
     content: '📖';
   }
@@ -80,6 +84,20 @@
     transition: transform .5s ease-in-out;
   }
 
+  .about{
+    font-family: Montserrat;
+    font-size: 110px;
+    font-weight: 800;
+    position: absolute;
+    z-index: -1;
+    padding-top: 10px;
+    margin-top: 555px;
+    margin-left: 850px;
+    opacity: 0.035;
+    text-transform: uppercase;
+    position: fixed;
+  }
+
   .technology{
     font-family: Montserrat;
     font-size: 110px;
@@ -88,6 +106,19 @@
     z-index: -1;
     margin-top: 555px;
     margin-left: 900px;
+    opacity: 0.035;
+    text-transform: uppercase;
+  }
+
+  .projects{
+    font-family: Montserrat;
+    font-size: 110px;
+    font-weight: 800;
+    position: absolute;
+    z-index: -1;
+    padding-top: 10px;
+    margin-top: 555px;
+    margin-left: 700px;
     opacity: 0.035;
     text-transform: uppercase;
   }

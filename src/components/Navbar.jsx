@@ -4,7 +4,7 @@ import { nav } from '../constant';
 const Navbar = () => {
   return (
     <>
-    <div className='nav'>
+    <div className='nav fixed'>
         <div>
             <ul className="flex flex-col h-[100vh] bg-[#353535] w-[120px] justify-center items-center">
                 {nav.map((nav,index)=>(

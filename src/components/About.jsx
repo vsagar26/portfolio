@@ -4,16 +4,15 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
-      
-      <div className="ml-20 font-[Poppins] ">
-      <h1 className="text-[60px] font-[300] mt-8">About</h1>
+      <div className="ml-20 font-[Poppins] ml-[200px]">
+        <h1 className="about">About</h1>
         <motion.div
           initial={{ y: 30 }}
           animate={{
             y: 0,
           }}
         >
-          <details className="mt-8 text-[16px] text-white cursor-pointer bg-[#6737A3] px-2 py-1 boxshadow rounded ">
+          <details className="mt-8 text-[16px] text-white cursor-pointer bg-[#6737A3] px-2 py-1 boxshadow rounded " open>
             <summary className="text-[20px] summary1"> Education</summary>
             <li className="list-none ml-16 mt-6  flex flex-col pb-8">
               <div className="flex flex-row gap-48 text-[18px] font-[600]">
@@ -53,7 +52,7 @@ const About = () => {
               </div>
             </li>
           </details>
-          <details className="mt-8 text-[16px] text-white cursor-pointer bg-[#6737A3] px-2 py-1 boxshadow rounded">
+          <details className="mt-8 text-[16px] text-white cursor-pointer bg-[#6737A3] px-2 py-1 boxshadow rounded" open>
             <summary className="text-[20px] summary2"> Internship</summary>
             <li className="list-none ml-16 mt-6  flex flex-col">
               <div className="flex flex-row gap-48 text-[18px] font-[600]">
@@ -65,7 +64,7 @@ const About = () => {
               </div>
             </li>
           </details>
-          <details className="mt-8 text-[16px] text-white cursor-pointer bg-[#6737A3] px-2 py-1 boxshadow w-[650px] rounded">
+          <details className="mt-8 text-[16px] text-white cursor-pointer bg-[#6737A3] px-2 py-1 boxshadow w-[650px] rounded mb-6" open>
             <summary className="text-[20px] summary3">
               {" "}
               Roles & Responsibility

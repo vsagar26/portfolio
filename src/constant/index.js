@@ -34,3 +34,40 @@ export const nav = [{
 },
 ]
 
+export const project =[
+    {
+        id: "1",
+        title: "Paytm UI Clone",
+        category: "htmlcss",
+        img: "",
+        git: "",
+        deployed : "",
+    },
+
+    {
+        id: "2",
+        title: "Shopify UI Clone",
+        category: "htmlcss",
+        img: "",
+        git: "",
+        deployed : "",
+    },
+
+    {
+        id: "3",
+        title: "Rhode UI Clone",
+        category: "htmlcss",
+        img: "",
+        git: "",
+        deployed : "",
+    },
+
+    {
+        id: "4",
+        title: "All Project",
+        category: "htmlcss",
+        img: "",
+        git: "",
+        deployed : "",
+    },
+];
