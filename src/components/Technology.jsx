@@ -38,7 +38,7 @@ const Technology = () => {
             </li>
             <li>
               <div className="hex">
-                <img src={tailwindcss} alt="tailwindcss" className="h-[80px]" />
+                <img src={tailwindcss} alt="tailwindcss" className="h-[60px]" />
               </div>
             </li>
           </ul>
