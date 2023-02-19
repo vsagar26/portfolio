@@ -64,10 +64,69 @@ export const project =[
 
     {
         id: "4",
-        title: "All Project",
-        category: "htmlcss",
+        title: "Calculator",
+        category: "javascript",
         img: "",
         git: "",
         deployed : "",
     },
+
+    {
+        id: "5",
+        title: "Modern Website",
+        category: "react",
+        img: "",
+        git: "",
+        deployed : "",
+    },
+
+    {
+        id: "6",
+        title: "Backend",
+        category: "backend",
+        img: "",
+        git: "",
+        deployed : "",
+    },
+
+    {
+        id: "7",
+        title: "MERN  MERN MERN vMERN",
+        category: "fullstack",
+        img: "",
+        git: "",
+        deployed : "",
+    },
+    
 ];
+
+export const contact = [
+    {
+        id: "email",
+        link: "",
+    },
+    {
+        id: "phone",
+        link: "",
+    },
+    {
+        id: "linkedin",
+        link: "https://www.linkedin.com/in/vsagarofficial/",
+    },
+    {
+        id: "github",
+        link: "https://github.com/vsagar26",
+    },
+    {
+        id: "telegram",
+        link: "",
+    },
+    {
+        id: "hashnode",
+        link: "https://hashnode.com/@vsagar",
+    },
+    {
+        id: "instagram",
+        link: "https://www.instagram.com/v_sagar005/",
+    },
+]

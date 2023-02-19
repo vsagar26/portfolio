@@ -29,6 +29,8 @@
     box-shadow: 5px 5px 20px 10px #6837a331;
   }
 
+  /* About */
+
   .summary1::marker{
     content: '📖';
   }
@@ -40,6 +42,22 @@
   .summary3::marker{
     content: '💼';
   }
+
+  .about{
+    font-family: Montserrat;
+    font-size: 110px;
+    font-weight: 800;
+    position: absolute;
+    z-index: -1;
+    padding-top: 10px;
+    margin-top: 555px;
+    margin-left: 850px;
+    opacity: 0.035;
+    text-transform: uppercase;
+    position: fixed;
+  }
+
+  /* Technology */
 
   .hex{
     position: relative;
@@ -55,7 +73,7 @@
     transition: .5s;
   }
 
-  .hex img{
+  .hex img, .hex2 img{
     z-index: 1;
   }
 
@@ -84,19 +102,7 @@
     transition: transform .5s ease-in-out;
   }
 
-  .about{
-    font-family: Montserrat;
-    font-size: 110px;
-    font-weight: 800;
-    position: absolute;
-    z-index: -1;
-    padding-top: 10px;
-    margin-top: 555px;
-    margin-left: 850px;
-    opacity: 0.035;
-    text-transform: uppercase;
-    position: fixed;
-  }
+  
 
   .technology{
     font-family: Montserrat;
@@ -109,6 +115,8 @@
     opacity: 0.035;
     text-transform: uppercase;
   }
+
+  /* Projects */
 
   .projects{
     font-family: Montserrat;
@@ -123,6 +131,73 @@
     text-transform: uppercase;
   }
 
+  .projectdiv{
+    overflow-x: auto;
+  }
+
+  .projectdiv::-webkit-scrollbar{
+    display: none;
+  }
+
+  /* Contact */
+
+  .hex2{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background: #faa041;
+    clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .contactlist1{
+    transform: translateY(60px);
+  }
+
+  .contactlist2{
+    transform: translateY(30px);
+  }
+
+  ul li .hex2 img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform .4s;
+
+  }
+
+  ul li .hex2:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform .5s ease-in-out;
+  }
+
+  ul li:hover .hex2:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s ease-in-out;
+  }
+
+  .contact{
+    font-family: Montserrat;
+    font-size: 110px;
+    font-weight: 800;
+    position: absolute;
+    z-index: -1;
+    margin-top: 555px;
+    margin-left: 750px;
+    opacity: 0.035;
+    text-transform: uppercase;
+  }
 
 
  
