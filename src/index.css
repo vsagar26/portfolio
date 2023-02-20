@@ -122,21 +122,25 @@
     font-family: Montserrat;
     font-size: 110px;
     font-weight: 800;
-    position: absolute;
     z-index: -1;
-    padding-top: 10px;
-    margin-top: 555px;
     margin-left: 700px;
     opacity: 0.035;
     text-transform: uppercase;
   }
 
-  .projectdiv{
+  /* .projectdiv{
     overflow-x: auto;
   }
 
   .projectdiv::-webkit-scrollbar{
     display: none;
+  } */
+
+  .projectdiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
   }
 
   /* Contact */
