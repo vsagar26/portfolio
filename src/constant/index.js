@@ -1,4 +1,4 @@
-import {htmltailwind, htmlcss, js, react, html, bootstrap, tailwindcss, javascript, reactjs, redux, mongodb, nodejs, expressjs, postman, gmail, phone, linkedin, github, telegram, hashnode, instagram} from "../assets"
+import {htmltailwind, htmlcss, js, react,} from "../assets"
 
 export const nav = [{
     id:"/",
