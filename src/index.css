@@ -5,7 +5,13 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Festive&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+
+  /* Nav bar */
+
+
 .material-symbols-outlined {
+  font-size: 33px;
+  height: 65px;
     font-variation-settings:
     'FILL' 0,
     'wght' 300,
@@ -128,19 +134,25 @@
     text-transform: uppercase;
   }
 
-  /* .projectdiv{
-    overflow-x: auto;
-  }
-
-  .projectdiv::-webkit-scrollbar{
-    display: none;
-  } */
+  
 
   .projectdiv{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     
+  }
+
+  .hoverEffect:hover{
+    background: #6737A3;
+    color: #ffffff;
+    transition: ease-in-out;
+  }
+
+  .hoverEffect2:hover{
+    color: #6737A3; 
+    font-weight: 700;
+    transition: ease-in-out;
   }
 
   /* Contact */

@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 import {
   html,
   css,
@@ -18,7 +20,10 @@ const Technology = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[100vh] ml-[110px]">
       <h2 className=" technology">Technology</h2>
-      <div className="flex flex-col justify-center items-center ml-[340px] mt-[-70px]" >
+      <motion.div className="flex flex-col justify-center items-center ml-[340px] mt-[-70px]"  initial={{ y: 40 }}
+      animate={{
+        y: 0,
+      }}>
         <div className="container1 ">
           <ul className="flex flex-row gap-4 ulist1" >
             <li>
@@ -88,7 +93,7 @@ const Technology = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

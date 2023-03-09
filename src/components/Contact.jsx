@@ -1,13 +1,16 @@
 import React from "react";
 import { gmail, phone, linkedin, github, telegram, hashnode, instagram } from "../assets";
-
+import { motion } from "framer-motion";
 
 
 const Contact = () => {
   return (
     <div className="ml-[150px]">
       <h2 className="contact">Contact</h2>
-      <div className="flex flex-col justify-center items-center ml-[340px] mt-10">
+      <motion.div className="flex flex-col justify-center items-center ml-[340px] mt-10"  initial={{ y: 40 }}
+      animate={{
+        y: 0,
+      }}>
         <div className="container1 ">
           <ul className="flex flex-row gap-4 contactlist1">
             <li>
@@ -55,7 +58,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

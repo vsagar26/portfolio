@@ -16,7 +16,11 @@ import github from "./github.png";
 import telegram from "./telegram.png";
 import hashnode from "./hashnode.png";
 import instagram from "./instagram.png";
+import htmltailwind from "./htmltailwind.jpg"
+import htmlcss from "./htmlcss.jpg"
+import js from "./js.jpg"
+import react from "./react.jpg"
 
 
 
-export {html, css, bootstrap, tailwindcss, javascript, reactjs, redux, mongodb, nodejs, expressjs, postman, gmail, phone, linkedin, github, telegram, hashnode, instagram};
+export {html, css, bootstrap, tailwindcss, javascript, reactjs, redux, mongodb, nodejs, expressjs, postman, gmail, phone, linkedin, github, telegram, hashnode, instagram, htmltailwind, htmlcss, js, react};
