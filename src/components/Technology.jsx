@@ -27,7 +27,7 @@ const Technology = () => {
         <div className="container1 ">
           <ul className="flex flex-row gap-4 ulist1" >
             <li>
-              <div className="hex " >
+              <div className="hex" >
                 <img src={html} alt="html" className="h-[80px]" />
               </div>
             </li>

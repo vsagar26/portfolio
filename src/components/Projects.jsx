@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { project } from "../constant";
 import { motion } from "framer-motion";
+import { BsEyeFill, BsGithub } from 'react-icons/bs';;
 
 const Work = () => {
   const [items, setItems] = useState(project);
@@ -20,7 +21,7 @@ const Work = () => {
         y: 0,
       }}
     >
-      <div className="bg-[#ffffff] boxshadow2 rounded-lg mt-16 ml-[310px] px-5 py-2 w-[745px]">
+      <div className="bg-[#ffffff] boxshadow2 rounded-lg mt-16 ml-[310px] px-5 py-2 w-[750px] border-[#6737A3] border-2">
         <ul className="list-none flex flex-row space-x-8 font-[Poppins] text-[17px] cursor-pointer ">
           <li onClick={() => setItems(project)} className="hoverEffect2">All Projects</li>
           <li onClick={() => filterItem("htmlcss")} className="hoverEffect2">HTML & CSS</li>
@@ -30,27 +31,27 @@ const Work = () => {
           <li onClick={() => filterItem("fullstack")} className="hoverEffect2">Full Stack(MERN)</li>
         </ul>
       </div>
-      <div className=" mt-16 ml-20 w-[1225px] boxshadow2 rounded-lg flex flex-row gap-8 items-center w-[100vw] justify-center projectdiv px-6 py-8 mb-8">
+      <div className=" mt-16 ml-20 w-[1225px] boxshadow2 rounded-lg flex flex-row gap-8 items-center w-[100vw] justify-center projectdiv px-6 py-8 mb-8 ">
         {items.map((project, index) => (
           <div
-            className="bg-[#404040] flex flex-col px-6 py-3 rounded-lg w-[220px] h-[350px]"
+            className="bg-[#404040] flex flex-col px-6 py-3 rounded-lg w-[220px] h-[350px] boxshadow3"
             key={project.id}
           >
-            <div className="h-[250px]"><img src={project.img} alt="" className="rounded-xl"/></div>
+            <div className="h-[250px]"><img src={project.img} alt="" className="rounded-xl hover:scale-105 hover:ease-in-out hover:duration-200"/></div>
             <h2 className="text-[17px] text-white text-center">
               {project.title}
             </h2>
             <button
-              className="bg-white px-6 py-2 mt-2 rounded hoverEffect"
+              className="bg-white px-6 py-2 mt-2 rounded hoverEffect flex flex-row gap-3 justify-center items-center"
               onClick={() => window.open(project.deployed)}
             >
-              See Live
+              See Live <BsEyeFill className="mt-1"/>
             </button>
             <button
-              className="bg-white px-6 py-2 mt-2 rounded hoverEffect"
+              className="bg-white px-6 py-2 mt-2 rounded hoverEffect flex flex-row gap-2 justify-center items-center"
               onClick={() => window.open(project.git)}
             >
-              Github Repo
+              Github Repo <BsGithub className="mt-[2px]"/>
             </button>
           </div>
         ))}

@@ -57,9 +57,15 @@ const Hero = () => {
         
         
       </div>
-      <div>
+      <motion.div animate={{
+            y:-10 }}
+            transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: "reverse"
+            }}>
         <img src={heroimg} alt="IMG" className="h-[450px] mt-40 pr-4" />
-      </div>
+      </motion.div>
     </motion.div>
   );
 };

@@ -35,6 +35,12 @@
     box-shadow: 5px 5px 20px 10px #6837a331;
   }
 
+
+  .boxshadow3:hover{
+    box-shadow: 5px 5px 20px 10px #6837a37e;
+    transition: .4s ease-in-out;
+  }
+
   /* About */
 
   .summary1::marker{
@@ -64,6 +70,8 @@
   }
 
   /* Technology */
+
+
 
   .hex{
     position: relative;
