@@ -171,10 +171,19 @@ export const project =[
         deployed : "https://weather-react-app-js.netlify.app/",
     },
 
+    {
+        id: "15",
+        title: "StreamFlix | Movie Recommendation App",
+        category: "react",
+        img: react,
+        git: "https://github.com/vsagar26/movie-recommendation-app-react",
+        deployed : "https://movie-recommendation-app-react.netlify.app/",
+    },
+
     // Backend
 
     {
-        id: "15",
+        id: "16",
         title: "Backend ",
         category: "backend",
         img: "",
@@ -185,7 +194,7 @@ export const project =[
     // FullStack
 
     {
-        id: "16",
+        id: "17",
         title: "Full Stack ",
         category: "fullstack",
         img: "",
