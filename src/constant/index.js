@@ -180,10 +180,19 @@ export const project =[
         deployed : "https://movie-recommendation-app-react.netlify.app/",
     },
 
+    {
+        id: "16",
+        title: "Zepto Clone",
+        category: "react",
+        img: react,
+        git: "https://github.com/vsagar26/zepto-clone",
+        deployed : "https://vs-cart-clone.netlify.app/",
+    },
+
     // Backend
 
     {
-        id: "16",
+        id: "17",
         title: "Backend ",
         category: "backend",
         img: "",
@@ -194,7 +203,7 @@ export const project =[
     // FullStack
 
     {
-        id: "17",
+        id: "18",
         title: "Full Stack ",
         category: "fullstack",
         img: "",
